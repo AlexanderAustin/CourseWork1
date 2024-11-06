@@ -9,7 +9,7 @@ public static int Arg1;
         int rem, num;
         num = Arg1;
         String hexadecimal="";
-        System.out.println("Converting the Decimal Value " + num + " to Hex...");
+        System.out.println("Converting the Decimal Value " + num + " to Hex....");
 
         while(num != 0)
         {
@@ -17,6 +17,7 @@ public static int Arg1;
             hexadecimal= ch[rem] + hexadecimal;
             num= num/16;
         }
+
 
         System.out.println("Hexadecimal representation is: " + hexadecimal);
 
